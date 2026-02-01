@@ -1,0 +1,250 @@
+{
+  "dialogues": [
+    {
+      "index": 0,
+      "characterName": "",
+      "text": "Вы, новоприбывший при дворе Его Величества Людовика XIV, ступаете в сияющий Версаль, где интриги плетутся тоньше кружев.",
+      "background": "history1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 1,
+      "characterName": "Луиза",
+      "text": "Я, Луиза де Лавальер, проведу вас, cher ami, через лабиринт этикета и амбиций.",
+      "background": "history1",
+      "characterSprite": "luiza5",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 2,
+      "characterName": "Луиза",
+      "text": "Прежде всего, внимайте: поклон перед королем должен быть грациозен, но не чрезмерен, дабы не вызвать насмешек.",
+      "background": "history1",
+      "characterSprite": "luiza5",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 3,
+      "characterName": "Луиза",
+      "text": "Прежде всего, внимайте: поклон перед королем должен быть грациозен, но не чрезмерен, дабы не вызвать насмешек.",
+      "background": "history1",
+      "characterSprite": "luiza5",
+      "characterPosition": "right",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Сделать глубокий поклон (риск насмешек).",
+          "branchIndex": 3
+        },
+        {
+          "choiceText": "Сделать легкий поклон (сохранить достоинство).",
+          "branchIndex": 5
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "characterName": "",
+      "text": "Ваш глубокий поклон вызывает шепот и смех при дворе. Репутация ваша пошатнулась.",
+      "background": "dvorech2",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 5,
+      "characterName": "Луиза",
+      "text": "Mon Dieu, вы переусердствовали! Следуйте моим советам тщательнее.",
+      "background": "dvorech2",
+      "characterSprite": "luiza6",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 6,
+      "characterName": "",
+      "text": "Ваш легкий поклон принят с одобрением. Вы начинаете обретать уважение.",
+      "background": "dvorech2",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 7,
+      "characterName": "Луиза",
+      "text": "Bien! Теперь вы должны выбрать союзника среди дворян, дабы укрепить свое положение.",
+      "background": "dvorech1",
+      "characterSprite": "luiza6",
+      "characterPosition": "right",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Подружиться с влиятельным маркизом (высокий риск интриг).",
+          "branchIndex": 8
+        },
+        {
+          "choiceText": "Остаться нейтральным (безопасно, но медленно).",
+          "branchIndex": 10
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "characterName": "",
+      "text": "Маркиз принимает вас, но его враги начинают плести интриги против вас.",
+      "background": "dvorech1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 9,
+      "characterName": "Луиза",
+      "text": "Вы вступили в опасную игру, mon cher. Остерегайтесь зависти!",
+      "background": "dvorech1",
+      "characterSprite": "luiza6",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 10,
+      "characterName": "",
+      "text": "Вы сохраняете нейтралитет, и ваше положение остается стабильным, но без особого роста.",
+      "background": "dvorech1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 11,
+      "characterName": "Луиза",
+      "text": "C'est prudent, но для славы нужно рисковать. Пойдемте на бал.",
+      "background": "dvorech2",
+      "characterSprite": "luiza6",
+      "characterPosition": "right",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Танцевать с королем.",
+          "branchIndex": 12
+        },
+        {
+          "choiceText": "Остаться в тени.",
+          "branchIndex": 14
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "characterName": "",
+      "text": "Вы танцуете с королем, но фавориты начинают строить козни против вас.",
+      "background": "dvorech2",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 13,
+      "characterName": "Луиза",
+      "text": "Votre audace восхищает, но берегитесь яда зависти!",
+      "background": "dvorech2",
+      "characterSprite": "luiza6",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 14,
+      "characterName": "",
+      "text": "Вы остаетесь в тени, избегая внимания, но ваша репутация остается незаметной.",
+      "background": "dvorech2",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 15,
+      "characterName": "Луиза",
+      "text": "Возвратимся в мои покои, где вы сможете отдохнуть, mon ami.",
+      "background": "history1",
+      "characterSprite": "luiza3",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 16,
+      "characterName": "",
+      "text": "Луиза уходит переодеться, оставив вас в размышлениях о своем пути при дворе.",
+      "background": "history1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 17,
+      "characterName": "Луиза",
+      "text": "Вот я, в утреннем наряде. Что выберете дальше, cher ami?",
+      "background": "history1",
+      "characterSprite": "luiza4",
+      "characterPosition": "right",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Просить наставления в этикете.",
+          "branchIndex": 18
+        },
+        {
+          "choiceText": "Стремиться к власти самостоятельно.",
+          "branchIndex": 20
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "characterName": "Луиза",
+      "text": "Bien! Учитесь кланяться и говорить комплименты с grace.",
+      "background": "history1",
+      "characterSprite": "luiza4",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 19,
+      "characterName": "",
+      "text": "Ваша репутация растет благодаря наставлениям Луизы. Конец.",
+      "background": "history1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 20,
+      "characterName": "",
+      "text": "Вы отвергаете помощь и падаете жертвой интриг. Конец.",
+      "background": "dvorech2",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+{
+  "dialogues": [
+    {
+      "index": 0,
+      "characterName": "",
+      "text": "Альберт Эйнштейн, молодой профессор с растрепанными волосами и горящими глазами, стоит у доски, держа мел в руке.",
+      "background": "aud1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 1,
+      "characterName": "",
+      "text": "Его голос дрожит от волнения, пока он пытается донести до студентов свои новые идеи о природе гравитации.",
+      "background": "aud1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 2,
+      "characterName": "",
+      "text": "В голове рождается образ: человек в падающем лифте, свободный от оков земного притяжения.",
+      "background": "aud1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 3,
+      "characterName": "",
+      "text": "Это видение — ключ к теории, которая изменит мир, но за пределами аудитории его ждет Милева, чье терпение истончается.",
+      "background": "aud1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 4,
+      "characterName": "Альберт",
+      "text": "Господа, позвольте мне предложить мысленный эксперимент.",
+      "background": "aud1",
+      "characterSprite": "albert1",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 5,
+      "characterName": "Альберт",
+      "text": "Представьте человека в закрытом лифте, падающем в пустоте.",
+      "background": "aud1",
+      "characterSprite": "albert1",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 6,
+      "characterName": "Альберт",
+      "text": "Он парит, не ощущая веса. Теперь лифт ускоряется вверх — появляется сила, как гравитация.",
+      "background": "aud1",
+      "characterSprite": "albert1",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 7,
+      "characterName": "Альберт",
+      "text": "Это и есть принцип эквивалентности: ускорение и гравитация неотличимы.",
+      "background": "aud1",
+      "characterSprite": "albert1",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 8,
+      "characterName": "Студент",
+      "text": "Профессор, как это связано с вашей теорией?",
+      "background": "aud2",
+      "characterSprite": "студент1",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 9,
+      "characterName": "Альберт",
+      "text": "Хороший вопрос! Гравитация — это искривление пространства-времени массой.",
+      "background": "aud2",
+      "characterSprite": "albert2",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 10,
+      "characterName": "Альберт",
+      "text": "Представьте Солнце: оно изгибает пространство, и планеты следуют этим кривым.",
+      "background": "aud2",
+      "characterSprite": "albert2",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 11,
+      "characterName": "Студент",
+      "text": "А как проверить это?",
+      "background": "aud2",
+      "characterSprite": "студент1",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 12,
+      "characterName": "Альберт",
+      "text": "Мы можем наблюдать, как свет звезд отклоняется около Солнца во время затмения.",
+      "background": "aud3",
+      "characterSprite": "albert5",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 13,
+      "characterName": "Альберт",
+      "text": "Еще время замедляется в сильном гравитационном поле — это гравитационное красное смещение.",
+      "background": "aud3",
+      "characterSprite": "albert5",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 14,
+      "characterName": "Студент",
+      "text": "Профессор, это сложно. Можете объяснить проще?",
+      "background": "aud3",
+      "characterSprite": "студент1",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 15,
+      "characterName": "Альберт",
+      "text": "Часы на горе идут быстрее, чем в долине, где гравитация сильнее.",
+      "background": "aud3",
+      "characterSprite": "albert5",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 16,
+      "characterName": "",
+      "text": "Студенты записывают заметки, а Альберт размышляет о своем открытии.",
+      "background": "aud3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Спросить про принцип эквивалентности.",
+          "branchIndex": 17
+        },
+        {
+          "choiceText": "Спросить про искривление света.",
+          "branchIndex": 21
+        },
+        {
+          "choiceText": "Пропустить и продолжить.",
+          "branchIndex": 25
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "characterName": "Альберт",
+      "text": "Хорошо, давайте проверим ваш интерес. Что происходит в падающем лифте?",
+      "background": "aud3",
+      "characterSprite": "albert4",
+      "characterPosition": "left",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Человек парит (правильно).",
+          "branchIndex": 18
+        },
+        {
+          "choiceText": "Человек чувствует тяжесть (ошибка).",
+          "branchIndex": 19
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "characterName": "Альберт",
+      "text": "Отлично! Вы верно запомнили принцип эквивалентности.",
+      "background": "aud3",
+      "characterSprite": "albert4",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 19,
+      "characterName": "Альберт",
+      "text": "Нет, в падающем лифте человек парит. Давайте повторим.",
+      "background": "aud3",
+      "characterSprite": "albert4",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 20,
+      "characterName": "",
+      "text": "Альберт объясняет дальше, надеясь на лучшее понимание.",
+      "background": "aud3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 21,
+      "characterName": "Альберт",
+      "text": "Давайте проверим ваше внимание. Что происходит со светом около Солнца?",
+      "background": "aud3",
+      "characterSprite": "albert4",
+      "characterPosition": "left",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Свет отклоняется (правильно).",
+          "branchIndex": 22
+        },
+        {
+          "choiceText": "Свет идет прямо (ошибка).",
+          "branchIndex": 23
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "characterName": "Альберт",
+      "text": "Правильно! Свет искривляется из-за гравитации. Вы внимательны!",
+      "background": "aud3",
+      "characterSprite": "albert4",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 23,
+      "characterName": "Альберт",
+      "text": "Нет, свет отклоняется. Давайте разберем это снова.",
+      "background": "aud3",
+      "characterSprite": "albert4",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 24,
+      "characterName": "",
+      "text": "Альберт возвращается к объяснениям с новым энтузиазмом.",
+      "background": "aud3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 25,
+      "characterName": "Альберт",
+      "text": "Теперь о времени. Кто может сказать, где часы идут медленнее?",
+      "background": "aud3",
+      "characterSprite": "albert5",
+      "characterPosition": "left",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "В долине (правильно).",
+          "branchIndex": 26
+        },
+        {
+          "choiceText": "На горе (ошибка).",
+          "branchIndex": 27
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "characterName": "Альберт",
+      "text": "Точно! В долине, где гравитация сильнее, время идет медленнее.",
+      "background": "aud3",
+      "characterSprite": "albert5",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 27,
+      "characterName": "Альберт",
+      "text": "Нет, часы на горе идут быстрее. В долине — медленнее.",
+      "background": "aud3",
+      "characterSprite": "albert5",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 28,
+      "characterName": "",
+      "text": "Лекция продолжается, и Альберт выходит на улицу подышать свежим воздухом.",
+      "background": "ulihf1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 29,
+      "characterName": "Герман",
+      "text": "Альберт, твои идеи о пространстве-времени требуют математической основы.",
+      "background": "ulihf2",
+      "characterSprite": "",
+      "characterPosition": "right",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Согласиться и работать вместе.",
+          "branchIndex": 30
+        },
+        {
+          "choiceText": "Отказаться и работать одному.",
+          "branchIndex": 36
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "characterName": "Альберт",
+      "text": "Хорошо, Герман, давай создадим четырехмерное пространство-время.",
+      "background": "ulihf2",
+      "characterSprite": "albert4",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 31,
+      "characterName": "Герман",
+      "text": "Отлично! Давай используем тензоры для описания искривления.",
+      "background": "ulihf2",
+      "characterSprite": "",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 32,
+      "characterName": "",
+      "text": "Альберт и Герман работают вместе, но Милева беспокоится о его отсутствии дома.",
+      "background": "ulihf2",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Продолжить работу с Германом.",
+          "branchIndex": 33
+        },
+        {
+          "choiceText": "Пойти домой к Милеве.",
+          "branchIndex": 40
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "characterName": "Альберт",
+      "text": "Мы почти закончили уравнения поля!",
+      "background": "ulihf2",
+      "characterSprite": "albert4",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 34,
+      "characterName": "",
+      "text": "Теория публикуется, и Альберт становится известен, но Милева подает на развод.",
+      "background": "ulihf2",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 35,
+      "characterName": "",
+      "text": "Конец: Научный триумф и мировое признание, но потеря семьи. (Конец 1)",
+      "background": "ulihf2",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 36,
+      "characterName": "Альберт",
+      "text": "Я справлюсь сам, спасибо, Герман.",
+      "background": "ulihf2",
+      "characterSprite": "albert4",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 37,
+      "characterName": "Герман",
+      "text": "Тогда ты рискуешь остаться без поддержки. Удачи.",
+      "background": "ulihf2",
+      "characterSprite": "",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 38,
+      "characterName": "",
+      "text": "Альберт работает в одиночку, но его теория остается незавершенной.",
+      "background": "ulihf2",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Попросить Германа вернуться.",
+          "branchIndex": 30
+        },
+        {
+          "choiceText": "Пойти домой к Милеве.",
+          "branchIndex": 40
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "characterName": "",
+      "text": "Конец: Теория остается незавершенной, и Альберт теряет репутацию. (Конец 2)",
+      "background": "ulihf2",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 40,
+      "characterName": "",
+      "text": "Альберт покидает аудиторию и направляется домой к Милеве.",
+      "background": "dom1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 41,
+      "characterName": "Альберт",
+      "text": "Милева, прости за задержку. Давай поговорим.",
+      "background": "dom1",
+      "characterSprite": "albert1",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 42,
+      "characterName": "Милева",
+      "text": "Альберт, дети спрашивают, где ты. Я устала.",
+      "background": "dom2",
+      "characterSprite": "mileva1",
+      "characterPosition": "right",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Обещать уделять время семье.",
+          "branchIndex": 43
+        },
+        {
+          "choiceText": "Сказать, что наука важнее.",
+          "branchIndex": 50
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "characterName": "Альберт",
+      "text": "Я обещаю быть с тобой и детьми больше.",
+      "background": "dom2",
+      "characterSprite": "albert1",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 44,
+      "characterName": "Милева",
+      "text": "Спасибо, Альберт. Это даст нам шанс.",
+      "background": "dom3",
+      "characterSprite": "mileva2",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 45,
+      "characterName": "",
+      "text": "Альберт проводит время с семьей, но работа над теорией замедляется.",
+      "background": "dom3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Вернуться к науке с Германом.",
+          "branchIndex": 30
+        },
+        {
+          "choiceText": "Остаться с семьей.",
+          "branchIndex": 46
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "characterName": "",
+      "text": "Альберт отказывается от амбиций и наслаждается семейным уютом.",
+      "background": "dom3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 47,
+      "characterName": "",
+      "text": "Конец: Баланс между семьей и наукой, но теория остается незавершенной. (Конец 3)",
+      "background": "dom3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 50,
+      "characterName": "Альберт",
+      "text": "Милева, наука — моя судьба. Семья подождет.",
+      "background": "dom2",
+      "characterSprite": "albert1",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 51,
+      "characterName": "Милева",
+      "text": "Тогда я не могу остаться. Прощай.",
+      "background": "dom3",
+      "characterSprite": "mileva3",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 52,
+      "characterName": "",
+      "text": "Милева уходит с детьми, и Альберт остается один.",
+      "background": "dom3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Вернуться к работе.",
+          "branchIndex": 53
+        },
+        {
+          "choiceText": "Погрузиться в отчаяние.",
+          "branchIndex": 56
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "characterName": "Альберт",
+      "text": "Я должен закончить теорию, несмотря ни на что.",
+      "background": "aud3",
+      "characterSprite": "albert4",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 54,
+      "characterName": "",
+      "text": "Альберт работает неустанно, но без поддержки терпит неудачу.",
+      "background": "aud3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 55,
+      "characterName": "",
+      "text": "Конец: Трагический финал, где теория остается незаконченной, а Альберт теряет все. (Конец 4)",
+      "background": "aud3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 56,
+      "characterName": "",
+      "text": "Альберт опускает руки, его гениальность угасает в одиночестве.",
+      "background": "dom3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 57,
+      "characterName": "",
+      "text": "Конец: Забвение и потеря себя.",
+      "background": "dom3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    }
+  ]
+}

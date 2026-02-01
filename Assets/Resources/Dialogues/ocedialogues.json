@@ -1,0 +1,597 @@
+{
+  "dialogues": [
+    {
+      "index": 0,
+      "characterName": "",
+      "text": "Максимилиан приходит в себя среди ледяных гор. Ледяной ветер обжигает лицо, а вокруг — бесконечная белизна, прерываемая острыми скалами.",
+      "background": "ice1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 1,
+      "characterName": "",
+      "text": "В руках винтовка. Холодный металл которой обжигает пальцы. Он не помнит, откуда она и как он оказался здесь.",
+      "background": "ice1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 2,
+      "characterName": "",
+      "text": "Рядом стоит Вальтер, высокий мужчина в снаряжении с суровым взглядом. Его дыхание превращается в пар на морозе.",
+      "background": "ice1",
+      "characterSprite": "valter1",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 3,
+      "characterName": "Максимилиан",
+      "text": "Кто ты? Почему мы здесь? Что, черт возьми, происходит?",
+      "background": "ice1",
+      "characterSprite": "",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 4,
+      "characterName": "Вальтер",
+      "text": "Молчи. Сохраняй силы. Если хочешь жить — двигайся за мной. Спускаться надо до ночи.",
+      "background": "ice1",
+      "characterSprite": "valter1",
+      "characterPosition": "right",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Доверять Вальтеру и идти за ним.",
+          "branchIndex": 5
+        },
+        {
+          "choiceText": "Остаться и осмотреться, игнорируя Вальтера.",
+          "branchIndex": 10
+        },
+        {
+          "choiceText": "Настоять на ответах, угрожая винтовкой.",
+          "branchIndex": 15
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "characterName": "",
+      "text": "Максимилиан решает довериться Вальтеру. Они начинают движение к вершине, где виднеется ущелье.",
+      "background": "ice2",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 6,
+      "characterName": "Вальтер",
+      "text": "Видишь ущелье? Там внизу есть низина с деревьями. Можно найти укрытие, но спуск опасен.",
+      "background": "ice2",
+      "characterSprite": "valter2",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 7,
+      "characterName": "",
+      "text": "Склон крутой, покрыт льдом. Один неверный шаг — и падение неизбежно. Ветер усиливается, неся с собой снежные вихри.",
+      "background": "ice2",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Начать спуск, следуя за Вальтером.",
+          "branchIndex": 8
+        },
+        {
+          "choiceText": "Предложить поискать другой путь.",
+          "branchIndex": 20
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "characterName": "",
+      "text": "Вы начинаете спуск. Лед под ногами скользит, и Максимилиан едва удерживает равновесие, цепляясь за камни.",
+      "background": "ice3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 9,
+      "characterName": "Вальтер",
+      "text": "Держись ближе ко мне. Если упадешь — я не смогу тебя вытащить.",
+      "background": "ice3",
+      "characterSprite": "valter2",
+      "characterPosition": "right",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Продолжить спуск, полагаясь на Вальтера.",
+          "branchIndex": 25
+        },
+        {
+          "choiceText": "Остановиться и попросить передохнуть.",
+          "branchIndex": 30
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "characterName": "",
+      "text": "Максимилиан игнорирует Вальтера и осматривается. Среди камней он замечает следы, ведущие к небольшой пещере.",
+      "background": "ice1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Зайти в пещеру и поискать укрытие.",
+          "branchIndex": 11
+        },
+        {
+          "choiceText": "Вернуться и догнать Вальтера.",
+          "branchIndex": 5
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "characterName": "",
+      "text": "В пещере темно и сыро, но ветер сюда не проникает. На полу лежат старые ветки — можно разжечь костер.",
+      "background": "ice4",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Разжечь костер, чтобы согреться.",
+          "branchIndex": 12
+        },
+        {
+          "choiceText": "Не тратить время и продолжить путь.",
+          "branchIndex": 35
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "characterName": "",
+      "text": "Максимилиан разжигает костер. Тепло возвращает силы, но снаружи слышится вой волков.",
+      "background": "ice4",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Остаться у костра до утра.",
+          "branchIndex": 13
+        },
+        {
+          "choiceText": "Взять винтовку и выйти проверить.",
+          "branchIndex": 40
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "characterName": "",
+      "text": "Волки не подходят близко, боясь огня. Максимилиан пережидает ночь и наутро продолжает спуск.",
+      "background": "ice5",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 14,
+      "characterName": "",
+      "text": "Конец: Максимилиан выжил, но остался один, так и не узнав, кто такой Вальтер.",
+      "background": "ice5",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 15,
+      "characterName": "",
+      "text": "Максимилиан поднимает винтовку, направив её на Вальтера. Его руки дрожат от холода и напряжения.",
+      "background": "ice1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 16,
+      "characterName": "Вальтер",
+      "text": "Опустите оружие, глупец. Я единственный, кто может вытащить вас отсюда.",
+      "background": "ice1",
+      "characterSprite": "valter1",
+      "characterPosition": "right",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Опустить винтовку и извиниться.",
+          "branchIndex": 17
+        },
+        {
+          "choiceText": "Настоять на ответах, угрожая выстрелить.",
+          "branchIndex": 45
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "characterName": "Максимилиан",
+      "text": "Прости, я... я просто не понимаю, что происходит.",
+      "background": "ice1",
+      "characterSprite": "",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 18,
+      "characterName": "Вальтер",
+      "text": "Я сказал: идем. Если начнешь задавать вопросы — бросаю тебя здесь.",
+      "background": "ice1",
+      "characterSprite": "valter1",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 19,
+      "characterName": "",
+      "text": "Максимилиан неохотно следует за Вальтером, чувствуя напряжение между ними.",
+      "background": "ice2",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 20,
+      "characterName": "Максимилиан",
+      "text": "Может, есть другой путь? Этот спуск выглядит слишком опасным.",
+      "background": "ice2",
+      "characterSprite": "",
+      "characterPosition": "left",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 21,
+      "characterName": "Вальтер",
+      "text": "Другой путь займет дни. У нас нет времени — буря близко.",
+      "background": "ice2",
+      "characterSprite": "valter2",
+      "characterPosition": "right",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Согласиться на спуск.",
+          "branchIndex": 8
+        },
+        {
+          "choiceText": "Настоять на поиске другого пути.",
+          "branchIndex": 50
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "characterName": "",
+      "text": "Вы продолжаете спуск, следуя за Вальтером. Ноги скользят, но он помогает вам удержаться.",
+      "background": "ice3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 26,
+      "characterName": "",
+      "text": "Вы достигаете низины. Здесь растут редкие деревья, и Вальтер начинает собирать ветки для укрытия.",
+      "background": "ice5",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 27,
+      "characterName": "Вальтер",
+      "text": "Нам нужно укрытие. Помоги, если хочешь дожить до утра.",
+      "background": "ice5",
+      "characterSprite": "valter2",
+      "characterPosition": "right",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Помочь Вальтеру с укрытием.",
+          "branchIndex": 28
+        },
+        {
+          "choiceText": "Отказаться и пойти искать помощь.",
+          "branchIndex": 55
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "characterName": "",
+      "text": "Вы с Вальтером строите укрытие из веток и снега. Ночь проходит спокойно.",
+      "background": "ice5",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 29,
+      "characterName": "",
+      "text": "Конец: Вы выжили и стали доверять Вальтеру, хотя его тайна так и не раскрытой.",
+      "background": "ice5",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 30,
+      "characterName": "",
+      "text": "Максимилиан останавливается, тяжело дыша. Вальтер хмурится, но соглашается сделать привал.",
+      "background": "ice3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 31,
+      "characterName": "Вальтер",
+      "text": "Ты слабак. Но ладно, передохнем. Только не расслабляйся — буря идет.",
+      "background": "ice3",
+      "characterSprite": "valter2",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 32,
+      "characterName": "",
+      "text": "Через час буря накрывает вас. Без укрытия вы замерзаете.",
+      "background": "ice3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 33,
+      "characterName": "",
+      "text": "Конец: Смерть от бури. Вальтер предупреждал.",
+      "background": "ice3",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 35,
+      "characterName": "",
+      "text": "Вы покидаете пещеру, не разжигая костер. Холод быстро истощает ваши силы.",
+      "background": "ice5",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 36,
+      "characterName": "",
+      "text": "Вы не выдерживаете мороз и теряете сознание.",
+      "background": "ice5",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 37,
+      "characterName": "",
+      "text": "Конец: Смерть от переохлаждения.",
+      "background": "ice5",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 40,
+      "characterName": "",
+      "text": "Вы выходите с винтовкой. Волки рычат, их глаза блестят в темноте. Их трое.",
+      "background": "ice4",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Выстрелить в волков.",
+          "branchIndex": 41
+        },
+        {
+          "choiceText": "Вернуться к костру.",
+          "branchIndex": 13
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "characterName": "",
+      "text": "Вы стреляете. Один волк падает, но остальные бросаются на вас.",
+      "background": "ice4",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 42,
+      "characterName": "",
+      "text": "В одиночку справиться с ними невозможно. Волки одерживают верх.",
+      "background": "ice4",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 43,
+      "characterName": "",
+      "text": "Конец: Смерть от нападения волков.",
+      "background": "ice4",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 45,
+      "characterName": "",
+      "text": "Максимилиан кричит: 'Говори, или я выстрелю!' Вальтер не двигается, его взгляд тяжелый.",
+      "background": "ice1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 46,
+      "characterName": "Вальтер",
+      "text": "Ты сделаешь только хуже. Прощай в одиночку.",
+      "background": "ice1",
+      "characterSprite": "valter1",
+      "characterPosition": "right",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 47,
+      "characterName": "",
+      "text": "Вальтер уходит, и Максимилиан остается один. Холод усиливается.",
+      "background": "ice1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 48,
+      "characterName": "",
+      "text": "Конец: Смерть от одиночества и холода.",
+      "background": "ice1",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 50,
+      "characterName": "",
+      "text": "Вы с Вальтером отправляетесь искать другой путь. Через час вы находите узкую тропу.",
+      "background": "ice4",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": true,
+      "choices": [
+        {
+          "choiceText": "Идти по тропе.",
+          "branchIndex": 51
+        },
+        {
+          "choiceText": "Вернуться к спуску.",
+          "branchIndex": 8
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "characterName": "",
+      "text": "Тропа ведет вниз, но она длиннее и извилистая. Вы теряете время.",
+      "background": "ice4",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 52,
+      "characterName": "",
+      "text": "Буря настигает вас на полпути. Без укрытия вы замерзаете.",
+      "background": "ice4",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 53,
+      "characterName": "",
+      "text": "Конец: Смерть от бури.",
+      "background": "ice4",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 55,
+      "characterName": "",
+      "text": "Вы оставляете Вальтера и идете искать помощь. Ночь застает вас в пути.",
+      "background": "ice5",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 56,
+      "characterName": "",
+      "text": "Без укрытия и огня вы замерзаете.",
+      "background": "ice5",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    },
+    {
+      "index": 57,
+      "characterName": "",
+      "text": "Конец: Смерть от переохлаждения.",
+      "background": "ice5",
+      "characterSprite": "",
+      "characterPosition": "",
+      "hasChoices": false,
+      "choices": []
+    }
+  ]
+}

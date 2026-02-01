@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "331732067420",
+    "firebase_url": "https://milkyway-1e863-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "milkyway-1e863",
+    "storage_bucket": "milkyway-1e863.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331732067420:android:102c83ee34ae037f43b299",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.com.unity.template.mobile2D"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcQc7qCe9fyfHUejHeChgTCvtg254n4pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331732067420:android:cc8631264504ada943b299",
+        "android_client_info": {
+          "package_name": "com.unity.androidnotification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcQc7qCe9fyfHUejHeChgTCvtg254n4pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331732067420:android:e7fa4c7fb1ecb2fe43b299",
+        "android_client_info": {
+          "package_name": "com.unity.androidnotifications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcQc7qCe9fyfHUejHeChgTCvtg254n4pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
