@@ -60,6 +60,41 @@
 | UI/UX | Modern UI Pack, TextMesh Pro | Современный, адаптивный и интуитивный пользовательский интерфейс |
 
 ---
+## 📸 Скриншоты (игровые сценарии)
+
+### 🎮 Старт и главное меню
+
+<p align="center">
+  <img src="docs/MilkStart.png" width="48%" />
+  <img src="docs/MilkMain.png" width="48%" /> 
+  <img src="docs/MilkError.png" width="48%" />
+</p>
+
+---
+### 🧩 Геймплей Sudoku
+
+<p align="center">
+  <img src="docs/MilkSudoku.png" width="48%" />
+  <img src="docs/MilkErSudoku.png" width="48%" />
+</p>
+
+---
+### 🧾 Проверка / Результаты
+
+<p align="center">
+  <img src="docs/MilkChek.png" width="48%" />
+  <img src="docs/MilkResult.png" width="48%" />
+</p>
+
+---
+
+### 📖 Визуальная новелла
+
+<p align="center">
+  <img src="docs/MilkNovel.png" width="48%" />
+  <img src="docs/MilkChoose.png" width="48%" />
+  <img src="docs/Milkfull.png" width="48%" />
+</p>
 
 ## Структура проекта (Assets)
 
